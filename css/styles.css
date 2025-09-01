@@ -2,12 +2,12 @@ html
 {
 font-size:100%;
 color:white;
-text-align: center;
 }
 
 h1
 {
     font-style:4rem;
+    line-height:200px;
 }
 
 h2
@@ -24,6 +24,9 @@ p
 {
     font-style:2.0rem;
     line-height: 1.7;
+    margin:0 auto;
+    margin-top:10px;
+    margin-bottom:10px;
 }
 
 body
@@ -31,6 +34,53 @@ body
     background:rgb(0, 20, 50);
 }
 
+img{
+    margin:0 auto;
+}
+
 a{
     color:aqua;
+}
+
+.menu
+{
+    width: 100%;
+    height: 70px;
+    background-color: rgba(0, 100, 250, 0.3);
+    padding-top: 5px;
+    box-sizing: border-box;
+    position: fixed;
+    top:0;
+    left:0;
+    margin:0 auto;
+}
+
+.menuli
+{
+    list-style: none;
+}
+
+.yoko
+{
+    display: flex;
+}
+
+.am
+{
+    display: block;
+    text-decoration: none;
+    color: white;
+     margin-right: 35px;
+}
+
+.center
+{
+    text-align: center;
+    margin:0, auto;
+}
+
+li
+{
+    margin-top:10px;
+    margin-bottom:10px;
 }
