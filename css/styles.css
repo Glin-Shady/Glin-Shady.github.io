@@ -1,32 +1,43 @@
 html
 {
-font-size:100%;
+font-size:120%;
 color:white;
 }
 
 h1
 {
     font-style:4rem;
-    line-height:200px;
+    padding-top:8%;
+    padding-bottom:2%;
 }
 
 h2
 {
     font-style:3.2rem;
+    padding:5%;
 }
 
 h3
 {
     font-style:2.8rem;
+    padding: 3%;
 }
 
 p
 {
     font-style:2.0rem;
-    line-height: 1.7;
+    line-height: 2.1;
     margin:0 auto;
     margin-top:10px;
     margin-bottom:10px;
+}
+
+li
+{
+    margin-top:10px;
+    margin-bottom:10px;
+    padding-top: 5px;
+    padding-bottom:5px;
 }
 
 body
@@ -34,18 +45,31 @@ body
     background:rgb(0, 20, 50);
 }
 
-img{
+img
+{
     margin:0 auto;
+    width: 100%;
 }
 
 a{
     color:aqua;
 }
 
+address
+{
+    padding-top:1rem;
+}
+
+ol
+{
+    width: 30%;
+    margin: 0 auto;
+}
+
 .menu
 {
     width: 100%;
-    height: 70px;
+    height: 90px;
     background-color: rgba(0, 100, 250, 0.3);
     padding-top: 5px;
     box-sizing: border-box;
@@ -58,6 +82,9 @@ a{
 .menuli
 {
     list-style: none;
+    margin:0 auto;
+    padding:0 auto;
+
 }
 
 .yoko
@@ -70,7 +97,7 @@ a{
     display: block;
     text-decoration: none;
     color: white;
-     margin-right: 35px;
+    margin-right: 35px;
 }
 
 .center
@@ -79,8 +106,45 @@ a{
     margin:0, auto;
 }
 
-li
+.herd
 {
-    margin-top:10px;
-    margin-bottom:10px;
+    list-style: none;
+    display:inline-block;
+    text-align: center;
+    width: 25%;
+    height: 25%;
+}
+
+
+.meicon
+{
+    width: 20%;
+    margin:0 auto;
+}
+
+.left
+{
+    text-align: left;
+}
+
+.cr
+{
+    text-align: center;
+    padding-top: 3%;
+    padding-bottom: 3%
+}
+
+.sns
+{
+    text-align: center;
+    padding-top: 1%;
+    padding-bottom: 1%;
+    list-style: none;
+}
+
+.pblog
+{
+    display:block;
+    width:55%;
+    margin:0 auto;
 }
