@@ -148,3 +148,9 @@ ol
     width:55%;
     margin:0 auto;
 }
+
+figure {
+    margin: 0;
+    padding-top:5%;
+    padding-bottom:2%;
+}
