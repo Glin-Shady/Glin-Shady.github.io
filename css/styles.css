@@ -45,6 +45,8 @@ p
     margin-bottom:10px;
 }
 
+
+
 li
 {
     margin-top:10px;
@@ -97,7 +99,6 @@ ol
     list-style: none;
     margin:0 auto;
     padding:0 auto;
-
 }
 
 .yoko
@@ -206,6 +207,12 @@ figure {
 @media (max-width: 767px) {
   .Discographybox {
     flex-direction: column;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  body {
+    font-size: 2.0rem;
   }
 }
 
