@@ -23,6 +23,13 @@ h3
     padding: 3%;
 }
 
+hr
+{
+    width:50%;
+    margin-bottom:3%;
+    margin-top:3%;
+}
+
 p
 {
     font-style:2.0rem;
@@ -109,7 +116,7 @@ ol
 .herd
 {
     list-style: none;
-    display:inline-block;
+    display:block;
     text-align: center;
     width: 25%;
     height: 25%;
@@ -151,6 +158,62 @@ ol
 
 figure {
     margin: 0;
-    padding-top:5%;
+    padding-top:2%;
     padding-bottom:2%;
+}
+
+.margins
+{
+    margin: 0;
+    padding-top:3%;
+    padding-bottom:3%;
+}
+
+.Discographybox
+{
+  display: flex;
+  gap: 16px;
+}
+
+.box
+{
+  flex: 1;
+  overflow: hidden;
+  border: groove medium rgb(100,100,250);
+  border-radius: 10px;
+}
+
+.boximage
+{
+  width: 100%;
+  aspect-ratio: 1/1;
+  object-fit: cover;
+  display: block;
+}
+
+.boxtitle
+{
+  margin-right: 16px;
+  margin-left: 16px;
+}
+
+@media (max-width: 767px) {
+  .Discographybox {
+    flex-direction: column;
+  }
+}
+
+.nonmargin
+{
+    margin:0 auto;
+}
+
+.box2
+{
+  width: 50%;
+  border: groove medium rgb(100,100,250);
+  border-radius: 10px;
+  box-sizing: border-box;
+  margin: 0 auto;
+  margin-top: 5%;
 }
