@@ -7,7 +7,7 @@ color:white;
 @media (max-width: 768px) {
     html
     {
-        font-size: 24px;
+        font-size: 16px;
     }
 }
 
@@ -20,7 +20,7 @@ audio
 h1
 {
     font-size:2.2rem;
-    padding-top:8%;
+    padding-top:10%;
     padding-bottom:2%;
 }
 
@@ -93,9 +93,10 @@ ol
 .menu
 {
     width: 100%;
-    height: 90px;
+    height: 13%;
+    max-width: 100%;
     background-color: rgba(0, 100, 250, 0.3);
-    padding-top: 5px;
+    padding-top: 0.7%;
     box-sizing: border-box;
     position: fixed;
     top:0;
@@ -103,16 +104,74 @@ ol
     margin:0 auto;
 }
 
+@media screen and (max-width: 767px) {
+  .menu
+  {
+    display: none;
+  }
+
+  summary
+  {
+    margin: 2%;
+    max-width: 100%;
+    height: auto;
+  }
+  .menu_s
+  {
+    width: 100%;
+    height: 10%;
+    max-width: 100%;
+    background-color: rgba(0, 100, 250, 0.3);
+    padding-top: 0.7%;
+    box-sizing: border-box;
+    position: fixed;
+    top:0;
+    left:0;
+    margin:0 auto;
+  }
+  #menu_bg
+  {
+    background-color: rgba(0, 20, 50, 0.9);
+    width: 100%;
+    max-width: 100%;
+    height: auto;
+  }
+  h1
+  {
+    padding-top: 14%;
+    max-width: 100%;
+    height: auto;
+  }
+
+  button
+  {
+    border:none;
+    background: transparent;
+    text-decoration: underline;
+    font-weight: 200;
+    color:aliceblue;
+    font-size: 1.1rem;
+    padding-bottom: 2.5%;
+    padding-top: 2.5%;
+    height: auto;
+  }
+}
+
 .menuli
 {
     list-style: none;
     margin:0 auto;
     padding:0 auto;
+    text-decoration:underline;
+    text-align: center;
+    height: auto;
 }
 
 .yoko
 {
     display: flex;
+    max-width: 100%;
+    height: auto;
 }
 
 .am
@@ -216,9 +275,23 @@ figure {
   margin-left: 16px;
 }
 
-@media (max-width: 767px) {
-  .Discographybox {
-    flex-direction: column;
+@media screen and (max-width: 767px) {
+  .Discographybox
+  {
+    flex-wrap: wrap;
+  }
+  .box
+  {
+    text-align: center;
+    width: 40%;
+  }
+  .meicon
+  {
+    width: 80%;
+  }
+  audio
+  {
+    width: 100%;
   }
 }
 
