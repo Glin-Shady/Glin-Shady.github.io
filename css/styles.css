@@ -93,7 +93,7 @@ ol
 .menu
 {
     width: 100%;
-    height: 11.5%;
+    height: 13.5%;
     max-width: 100%;
     background-color: rgba(0, 100, 250, 0.85);
     padding-top: 0.2%;
@@ -104,10 +104,36 @@ ol
     margin:0 auto;
 }
 
+.menu_h
+{
+    width: 100%;
+    height: 13.5%;
+    max-width: 100%;
+    background-color: rgba(250, 225, 0, 0.85);
+    padding-top: 0.2%;
+    box-sizing: border-box;
+    position: fixed;
+    top:0;
+    left:0;
+    margin:0 auto;
+}
+
+.youtube
+{
+    width: 46.6665rem;
+    height: 26.25rem;
+}
+
 @media screen and (max-width: 767px) {
-  .menu
+  .menu, .menu_h
   {
     display: none;
+  }
+
+  .youtube
+  {
+    width: 15.05rem;
+    height: 8.75rem;
   }
 
   summary
@@ -122,6 +148,20 @@ ol
     height: 10%;
     max-width: 100%;
     background-color: rgba(0, 100, 250, 0.85);
+    padding-top: 0.7%;
+    box-sizing: border-box;
+    position: fixed;
+    top:0;
+    left:0;
+    margin:0 auto;
+    text-decoration: underline;
+  }
+  .menu_s_h
+  {
+    width: 100%;
+    height: 10%;
+    max-width: 100%;
+    background-color: rgba(250, 225, 0, 0.85);
     padding-top: 0.7%;
     box-sizing: border-box;
     position: fixed;
@@ -168,6 +208,17 @@ ol
     height: auto;
 }
 
+.menuli_h
+{
+    list-style: none;
+    margin:0 auto;
+    padding:0 auto;
+    text-decoration:underline;
+    text-align: center;
+    height: auto;
+    color:black;
+}
+
 .yoko
 {
     display: flex;
@@ -180,6 +231,14 @@ ol
     display: block;
     text-decoration: none;
     color: white;
+    margin-right: 35px;
+}
+
+.am_h
+{
+    display: block;
+    text-decoration: none;
+    color: black;
     margin-right: 35px;
 }
 
@@ -307,10 +366,31 @@ figure {
 
 .box2
 {
-  width: 50%;
+  width: 75%;
   border: groove medium rgb(100,100,250);
   border-radius: 10px;
   box-sizing: border-box;
   margin: 0 auto;
   margin-top: 5%;
+}
+
+.box2_h
+{
+  width: 50%;
+  border: groove medium rgb(250,225,0);
+  border-radius: 10px;
+  box-sizing: border-box;
+  margin: 0 auto;
+  margin-top: 5%;
+}
+
+.grid
+{
+  background-image: linear-gradient(0deg, transparent calc(100% - 0.05rem), rgba(255, 255, 255, 0.3) calc(100% - 0.05rem)),
+                    linear-gradient(90deg, transparent calc(100% - 0.05rem), rgba(255, 255, 255, 0.3) calc(100% - 0.05rem));
+  background-size: 1.0rem 1.0rem;
+  background-repeat: repeat;
+  background-position: center center;
+  background-color: rgb(0, 0, 0);;
+
 }
