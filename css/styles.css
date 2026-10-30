@@ -4,6 +4,13 @@ font-size:18px;
 color:white;
 }
 
+textarea
+{
+  width:80%;
+  height:10rem;
+  font-size:20px;
+}
+
 @media (max-width: 768px) {
     html
     {
@@ -376,7 +383,7 @@ figure {
 
 .box2_h
 {
-  width: 50%;
+  width: 75%;
   border: groove medium rgb(250,225,0);
   border-radius: 10px;
   box-sizing: border-box;
